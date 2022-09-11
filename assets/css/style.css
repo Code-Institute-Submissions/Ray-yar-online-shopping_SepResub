@@ -100,7 +100,6 @@ margin-left: 5%;
 #menu li {
 	width: 25%;
 	float: left;
-	padding: 40px 0px;
 	font-size: 20px;
 	font-family: sans-serif;
 	font-weight: 600;
@@ -108,9 +107,15 @@ margin-left: 5%;
 	text-align: center;
 }
 
+#menu li div{
+	padding: 40px 0;
+}
+
 #menu li a {
 	color: white;
 	text-decoration: none;
+	width: 100%;
+	height: 100%;
 }
 
 .title {
@@ -387,6 +392,10 @@ button {
 		text-align: center;
 	}
 
+	#menu li div {
+		padding: 0 0;
+	}
+		
 	.contact-us {
 		padding: 10px;
 	}
@@ -426,7 +435,7 @@ button {
 		padding: 20px;
 	}
 
-	#menu li {
+	#menu li{
 		width: 25%;
 		float: left;
 		padding: 15px 0px;
@@ -500,7 +509,10 @@ button {
 	.slider_image_container{
 		padding: 0px;
 	}
-
+	#menu li div {
+		padding: 25px 0;
+	}
+		
 	.col-6 {
 		width: 100%;
 	}
@@ -559,7 +571,7 @@ button {
 	#menu li {
 		width: 25%;
 		float: left;
-		padding: 25px 0px;
+		/* padding: 25px 0px; */
 		font-size: 20px;
 		font-family: sans-serif;
 		font-weight: 500;

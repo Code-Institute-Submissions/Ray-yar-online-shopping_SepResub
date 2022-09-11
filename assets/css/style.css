@@ -17,12 +17,21 @@ ul {
 	padding: 0px;
 }
 
+.card img{
+	width: 100%;
+	height: 250px;
+}
+
 #header {
 	width: 100%;
 	background: white;
 	background: #232323;
 	position: fixed;
 	z-index: 99999;
+}
+
+.slider_image_container{
+	padding: 0px;
 }
 
 .container {
@@ -364,6 +373,9 @@ button {
 	/*header{
 		position: absolute;
 	}*/
+	.slider_image_container{
+		padding: 0px;
+	}
 	.row {
 		padding: 10px;
 	}
@@ -474,6 +486,9 @@ button {
 		font-weight: 500;
 		color: whitesmoke;
 	}
+	.slider_image_container{
+		padding: 0px;
+	}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -481,6 +496,9 @@ button {
 		width: 100%;
 		margin: 0px;
 		text-align: center;
+	}
+	.slider_image_container{
+		padding: 0px;
 	}
 
 	.col-6 {

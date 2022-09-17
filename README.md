@@ -4,7 +4,7 @@ The brief was to develop a static front end project with a minimum of three sepa
 
 <a href="https://github.com/Ray-yar/online-shopping" target="_blank">Visit the live project here</a>
 
-![alt text](assets/images/about.jpg "Responsive Image") 
+![alt text](.docs/multi_platform.png "Responsive Image") 
 
 Welcome Rohullah Ahmadyar,
 

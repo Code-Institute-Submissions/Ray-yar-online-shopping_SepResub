@@ -1,4 +1,10 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+## Online Shopping
+
+The brief was to develop a static front end project with a minimum of three separate page areas using HTML and CSS while following UX industry conventions. This is an online shopping platrom for making super easy the shopping market.
+
+<a href="https://github.com/Ray-yar/online-shopping" target="_blank">Visit the live project here</a>
+
+![alt text](assets/images/about.jpg "Responsive Image") 
 
 Welcome Rohullah Ahmadyar,
 

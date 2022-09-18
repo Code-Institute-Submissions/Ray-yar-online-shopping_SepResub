@@ -2,21 +2,60 @@
 
 The brief was to develop a static front end project with a minimum of three separate page areas using HTML and CSS while following UX industry conventions. This is an online shopping platrom for making super easy the shopping market.
 
-<a href="https://github.com/Ray-yar/online-shopping" target="_blank">Visit the live project here</a>
+<a href="https://ray-yar.github.io/online-shopping/" target="_blank">Visit the live project here</a>
 
 ![alt text](.docs/multi_platform.png "Responsive Image") 
 
-Welcome Rohullah Ahmadyar,
+Online Shopping is a general platform for every one who can access it throw internet and deal any thing they want. Our goal is to provide save and reliable space for users.Our aim is to make easy the market of shopping just by one click. Online Shopping platfrom is the first market place in Afghanistan. It provides a safe space for users to deal every thing which exist here or even they have their own in home.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+**This website is made up of the following pages:**
+1. Home Page
+2. More Products Page
+3. Contat Us Page
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+**The main objectives for establishing an online platform are:**
+1. Promoting a service or product online.
+2. Selling a service or product.
+3. Providing product support or customer service.
+4. Providing corporate information.
+5. Establishing brand awareness and corporate identity.
 
-## Gitpod Reminders
+**These users are looking for:**
+1. Their favorite product which is listed in products page.
+2. Cartting and then purchase their favorite product.
+3. A safe and reliable area for making their deals.
+4. Guarantee items which are listed in website.
+6. A user fiendly interface for searching their favorite product.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## UX/UI
+For UX strategy first started to think about the strategy for this website and defined who the target users would be and what features/technologies they would want. My strategy for the site was to provide reputable content and ease of access to users trying to attain information by utilising key UX principals.
 
-`python3 -m http.server`
+**Ideal users of this website:**
+1. Sellers who want to sell their products.
+2. Buyers who want to buy new products.
+3. Managers who are managing the activities during the deals.
+4. Admin who is the owner of this website.  
+
+**User stories:**
+1. **As a new visitor:** I want to easily navigate the site to find whether the products are right fit for my needs.
+2. **As a business/home owner:** I would like to find whether the products are trustworthy and reputable by seeing what the previous clients say about them.
+3. **As a new visitor:** I would like to learn more about their product delivary, so I can get to know their background better. 
+4. **As a new visitor:** I would like to know the dealing process and approach to their clients.
+5. **As an interested client:** I want to be able to contact the owner of the site.
+6. **As a potential client:** I would like to learn more about the dealer works and get validation via their history and presence in the social media. It is more reassuring to trust businesses who have a solid follower base.
+8. **As a returning visitor to the website:** I want to be able to find the contact page easily to reach the managers.
+
+**Scope**
+
+In order to achieve the desired user & business goals, the following features will be included in this release:
+
+1. Header and menu bar, to navigate to various sections of the page
+2. About us for detailing users about the website.
+3. Adding a saperate products page that users could find many various things they want.
+4. Information for each product include name, price, date, descriptions.
+5. Contact Us page for contacting with managers
+
+## Features
 
 A blue button should appear to click: _Make Public_,
 

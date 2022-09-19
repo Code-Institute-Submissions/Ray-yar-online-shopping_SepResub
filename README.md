@@ -1,12 +1,12 @@
 ## Online Shopping
 
-The brief was to develop a static front end project with a minimum of three separate page areas using HTML and CSS while following UX industry conventions. This is an online shopping platrom for making super easy the shopping market.
+The brief was to develop a static front end project with a minimum of three separate page areas using HTML and CSS while following UX industry conventions. This is an online shopping platrom for making shopping market easy and small.
 
 <a href="https://ray-yar.github.io/online-shopping/" target="_blank">Visit the live project here</a>
 
 ![alt text](.docs/multi_platform.png "Responsive Image") 
 
-Online Shopping is a general platform for every one who can access it throw internet and deal any thing they want. Our goal is to provide save and reliable space for users.Our aim is to make easy the market of shopping just by one click. Online Shopping platfrom is the first market place in Afghanistan. It provides a safe space for users to deal every thing which exist here or even they have their own in home.
+Online Shopping is a general platform for every one who can access it throw internet and deal any thing they want. Our goal is to provide safe and reliable space for users. Our aim is to make easy and simple shopping market just by one click. Online Shopping platfrom is the first market place in Afghanistan. It provides a safe space for users to deal every thing they want.
 
 **This website is made up of the following pages:**
 1. Home Page
@@ -83,3 +83,90 @@ This sectino has a copyright for other users to know that copping of this websit
 
 ![footer](.docs/footer.png "footer") 
 
+## Testing
+
+For testing i have done multiple steps:
+1. Checked css codes in <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validator</a>, and i didn't find any issue there.
+
+    ![css](.docs/css.png "css") 
+
+2. Checked html codes in <a href="https://validator.w3.org/" target="_blank">W3C HTML Validator</a>, this site found some issues.
+
+    ![html](.docs/html.png "html") 
+    
+3. And then i fixed all problems and test it again. And there wasn't any problem remained.
+    
+    ![html_validated](.docs/html_validated.png "html_validated") 
+
+4. For Preformance, Accessibility, Best Practices, SEO, PWA testing i used Chrome Lighthouse tools.
+
+    ![Chrome Test](.docs/chrome_test.png "Chrome Test") 
+
+## COMPATIBILITY
+To ensure a broad range of users can successfully view/use the site, I tested it across all major browsers in both desktop and mobile configuration.
+
+* Chrome
+* Edge
+* Firefox
+* Safari
+* Internet Explorer
+
+And i dind't find any specific problem in this website.
+
+## Further testing
+
+I asked my friends and family to click on the deployed link on their devices especially iPads and 17" and bigger laptops which I do not personally own. I added further bootstrap padding and margin and CSS media queries to make the website responsive on all devices.
+
+## Deployment
+This project was developed using <a href="https://gitpod.io/workspaces" target="_blank">GitPod</a>, committed to git and pushed to GitHub using git commands.
+
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+* Log into <a href="https://github.com/" target="_blank">GitHub</a>.
+* From the list of repositories on the screen, select **ray-yar**.
+* From the menu items near the top of the page, select **Settings**.
+* Scroll down to the GitHub Pages section.
+* Under Source click the drop-down menu labelled **None** and select **Master Branch**. Then Save it.
+* Wait for a few minutes of the website to be deployed.
+* Scroll back down to the GitHub Pages section to access the link to the deployed website.
+
+The live link can be found here - <a href="https://code-institute-org.github.io/love-maths/" target="_blank">https://code-institute-org.github.io/love-maths/</a>
+
+## Run this project locally
+
+* Select the Repository from the GitHub Dashboard.
+* Click the green button labelled 'Code'.
+* Click 'Download ZIP'.
+* Extract ZIP file on your computer.
+* Open folder and open index.html in web browser.
+
+## Clone this project
+* Select the Repository from the GitHub Dashboard.
+* Click the green button labelled 'Code'.
+* To clone the repository using:
+* HTTPS: under "Clone with HTTPS", click checklist icon.
+* SSH: click Use SSH, then click checklist icon.
+* Open Git Bash.
+* Change the current working directory to the location where you want the cloned directory.
+* Type 'git clone', and then paste the URL you copied earlier.
+* Press Enter to create your local clone.
+
+## Credits
+-------------
+## Content
+
+All the texts in this website was created by developer according the the website vision, mission and scope. 
+
+## Media
+
+* The photos used on the home and sign up page are from This Open Source site
+* The images used for the gallery page were taken from this other open source site
+
+## Acknowledgements
+ I decided to develop this website for a real life. Users should be able to add their products and buyers should be able to buy the products listed.
+
+ I have seen multi websites which they were doing such works like: 
+ * <a href="https://www.amazon.com/" target="_blank">Amazon</a>
+ * <a href="https://www.alibaba.com/" target="_blank">Ali baba</a> 
+ * And many other websites. So i made a vision for myself according that i designed the whole website.
+ * Huge thanks to my mentor <a href="https://github.com/guidocecilio" target="_blank"> Guido Cecilio Garcia Bernal</a> guided me throughout this project. 

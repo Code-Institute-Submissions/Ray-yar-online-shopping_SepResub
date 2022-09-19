@@ -36,118 +36,50 @@ For UX strategy first started to think about the strategy for this website and d
 3. Managers who are managing the activities during the deals.
 4. Admin who is the owner of this website.  
 
-**User stories:**
-1. **As a new visitor:** I want to easily navigate the site to find whether the products are right fit for my needs.
-2. **As a business/home owner:** I would like to find whether the products are trustworthy and reputable by seeing what the previous clients say about them.
-3. **As a new visitor:** I would like to learn more about their product delivary, so I can get to know their background better. 
-4. **As a new visitor:** I would like to know the dealing process and approach to their clients.
-5. **As an interested client:** I want to be able to contact the owner of the site.
-6. **As a potential client:** I would like to learn more about the dealer works and get validation via their history and presence in the social media. It is more reassuring to trust businesses who have a solid follower base.
-8. **As a returning visitor to the website:** I want to be able to find the contact page easily to reach the managers.
-
-**Scope**
-
-In order to achieve the desired user & business goals, the following features will be included in this release:
-
-1. Header and menu bar, to navigate to various sections of the page
-2. About us for detailing users about the website.
-3. Adding a saperate products page that users could find many various things they want.
-4. Information for each product include name, price, date, descriptions.
-5. Contact Us page for contacting with managers
-
 ## Features
+Online shopping website a general website which is access able for all users. In this website we have added three main pages. That each of them are necessary for an online website. i.e Home Page in this page a basic landing page is created to show the main aim of a website like there scope or visoin or any thing elese so this part is very good to define what we need to declare for a user. And then their is Product page, this page can list the whole products which is in our website. Contact Page, this page is also improtant to get users feedback about the process of our work.
 
-A blue button should appear to click: _Make Public_,
+## Existing Features
 
-Another blue button should appear to click: _Open Browser_.
+**Navigation Bar**
+Here it containts a navigation bar which has a logo in left side and list of screen tabs in right side. Every thing is fully responsive like logo and navigation bar. It can easily fix it self with the width of diffrent devices.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![Header](.docs/header.png "Header") 
 
-A blue button should appear to click: _Make Public_,
+**Slider**
 
-Another blue button should appear to click: _Open Browser_.
+This secion is very good for describing the vision, mession and scope of our website that every body when they log into to the website they should know that what this website is stand on. This contains one company photo as background to the users can see the team how we are working.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![slider](.docs/slider.png "slider") 
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+**About Us**
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+This section has a common instruction about the our company and how it works, and why it works. Thic section contains creation date and many other instructions about company. And also how this website works. It help users to know where they are dealing, so they will be more comfort while using this website. This section has a photo in left side and contents in right side. This is responsive in each devices and works as smooth as it can be.
 
-------
+![about](.docs/about.png "about") 
 
-## Release History
+**Products**
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+This section list all products which are listed in our website, In home page their is only few of products but id "More Product" Page there is all products listed which is available for dealing and shopping.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+This section has a product photo and the name of that photo, price, description, posted date and review count. This info about proudct help users to know what product is this. This will also help users to access to their favorite product very fast.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+This section is also responsive and it is working in multi devices without any crashes. This photo is at the top to be visible very good. The title and price is under phot and desction, other details are at the bottom of the product card.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![products](.docs/products.png "products") 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+**Contact Us**
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+This section helps users to get it touch with the managers of the website, this is a very good place for users to get contact with the owners of the website. i.e When a user wants to pay for a product but their is some problem so they can easily contact with managers and fix it as soon as posible. Or, maybe some crash reports. Or even some new feature suggestions to be added in the website. 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+This section is also responsive. It contains Name, Email, Subject and the message the user want to send for website owners. And a bried instruction about the company for users.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+![contact](.docs/contact.png "contact") 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+**Footer**
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+This sectino has a copyright for other users to know that copping of this website will cause many problems for them. The coppy rith text is aligned in center and it is fully responsive.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![footer](.docs/footer.png "footer") 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!

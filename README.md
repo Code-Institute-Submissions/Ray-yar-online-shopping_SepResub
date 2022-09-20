@@ -130,7 +130,7 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 * Wait for a few minutes of the website to be deployed.
 * Scroll back down to the GitHub Pages section to access the link to the deployed website.
 
-The live link can be found here - <a href="https://code-institute-org.github.io/love-maths/" target="_blank">https://code-institute-org.github.io/love-maths/</a>
+The live link can be found here - <a href="https://ray-yar.github.io/online-shopping/" target="_blank">https://ray-yar.github.io/online-shopping/</a>
 
 ## Run this project locally
 
